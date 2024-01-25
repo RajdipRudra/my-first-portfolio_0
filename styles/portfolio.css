@@ -1,0 +1,11 @@
+/* s */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header section*/
+/* navigation section */
+nav{
+    display: flex;
+}
