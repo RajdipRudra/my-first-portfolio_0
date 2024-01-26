@@ -1,16 +1,17 @@
 /* s */
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
-    color:#FD6E0A;
+.text-primary {
+    color: #FD6E0A;
 }
-.button-primary{
+
+.button-primary {
     border: 0;
     border-radius: 5px;
     background: #FD6E0A;
-    color:#FFF;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
@@ -18,13 +19,14 @@
 
 /*header section*/
 /* navigation section */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-style: normal;
@@ -32,15 +34,34 @@ nav{
 }
 
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #181818;
+}
+
+/* header related styles */
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner>image {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
