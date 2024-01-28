@@ -160,21 +160,62 @@ main section {
 }
 
 .resume-colum-title {
-    color:#474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
-    display:flex;
+
+.resume-container {
+    display: flex;
     gap: 50px;
 }
-.resume-item>p h3{
+
+.resume-item>p h3 {
     color: #757575;
 }
-.resume-item>h2{
-    color:#474747;
+
+.resume-item>h2 {
+    color: #474747;
 }
-.download_cv{
+
+.download_cv {
     text-align: center;
     margin-top: 50px;
+}
+
+.footer-section {
+    padding: 200px;
+    margin: 90px auto 0px auto;
+    background-color: #FFF8F3;
+    ;
+}
+
+.images {
+    gap: 24px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.footer-section {
+    display: flex;
+    gap: 150px;
+}
+
+.input-box {
+    padding: 3px 20px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border: none;
+    margin-bottom: 24px;
+    width: 461px;
+    flex-shrink: 0;    border-radius: 5px;
+    background: #FFF;
+}
+
+.bro-drag {
+    height: 64px;
 }
